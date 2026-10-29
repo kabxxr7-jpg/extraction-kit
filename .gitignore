@@ -1,0 +1,7 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+eval-report.md
+.DS_Store

@@ -1,0 +1,51 @@
+{
+  "inv-1": [
+    {
+      "data": { "invoiceNumber": "INV-1001", "vendor": "Example Widgets Ltd", "issueDate": "2026-03-04", "currency": "USD", "total": 1250, "dueDate": "2026-04-03" },
+      "evidence": [
+        { "field": "invoiceNumber", "quote": "Invoice No: INV-1001" },
+        { "field": "total", "quote": "Total due: USD 1250.00" },
+        { "field": "dueDate", "quote": "Due date: 2026-04-03" }
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "inv-2": [
+    {
+      "data": { "invoiceNumber": "2026-044", "vendor": "Sample Studio GmbH", "issueDate": "2026-05-12", "currency": "EUR", "total": 400, "dueDate": null },
+      "evidence": [
+        { "field": "invoiceNumber", "quote": "Invoice # 2026-044" },
+        { "field": "total", "quote": "Subtotal EUR 400.00" }
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "inv-3": [
+    {
+      "data": { "invoiceNumber": "FF-778", "vendor": "Fictional Freight Co", "issueDate": "2026-06-30", "currency": "GBP", "total": 89.9, "dueDate": "2026-07-30" },
+      "evidence": [
+        { "field": "invoiceNumber", "quote": "Invoice FF-778" },
+        { "field": "total", "quote": "Total: GBP 89.90" }
+      ],
+      "confidence": 0.92
+    }
+  ],
+  "inv-4": [
+    {
+      "data": { "vendor": "Placeholder Parts Inc." },
+      "evidence": [],
+      "confidence": 0.8
+    },
+    "Sorry, I cannot extract this."
+  ],
+  "inv-5": [
+    {
+      "data": { "invoiceNumber": "12-B", "vendor": "Invented Repairs", "issueDate": "2026-08-15", "currency": "USD", "total": 75, "dueDate": null },
+      "evidence": [
+        { "field": "invoiceNumber", "quote": "Inv 12-B" },
+        { "field": "total", "quote": "Total 75 USD" }
+      ],
+      "confidence": 0.55
+    }
+  ]
+}
